@@ -16,7 +16,7 @@ export default function Home() {
         <NavBar />
         <div className={styles.main}>
           <h1 className={styles.title}>
-            Hi! I'm <span className={styles.name}>Marc Rodríguez</span>
+            Hi! I&apos;m <span className={styles.name}>Marc Rodríguez</span>
           </h1>
           <h3 className={styles.subtitle}>
             Backend Developer Trainee at{" "}
