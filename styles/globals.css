@@ -13,14 +13,16 @@ a {
 
 * {
   box-sizing: border-box;
-  -webkit-user-select: text;
-  -moz-user-select: text;
-  -ms-user-select: text; 
 }
 
 ::selection {
-  background: white;
+  background-color: white;
   color: black;
+}
+
+::-moz-selection {
+  background-color: white;
+  color: black
 }
 
 @media (prefers-color-scheme: dark) {
@@ -30,5 +32,6 @@ a {
   body {
     color: white;
     background: black;
+    background-color: black;
   }
 }
