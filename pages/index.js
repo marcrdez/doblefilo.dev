@@ -15,7 +15,13 @@ export default function Home() {
       <main>
         <NavBar />
         <div className={styles.main}>
-          <h1 className={styles.title}>Marc Rodríguez</h1>
+          <h1 className={styles.title}>
+            Hi! I'm <span className={styles.name}>Marc Rodríguez</span>
+          </h1>
+          <h3 className={styles.subtitle}>
+            Backend Developer Trainee at{" "}
+            <span className={styles.job}>Genially</span>
+          </h3>
         </div>
       </main>
     </div>
