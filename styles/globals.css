@@ -16,13 +16,13 @@ a {
 }
 
 ::selection {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
 }
 
 ::-moz-selection {
-  background-color: white;
-  color: black
+  background-color: black;
+  color: white;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -34,4 +34,14 @@ a {
     background: black;
     background-color: black;
   }
+
+  ::selection {
+  background-color: white;
+  color: black;
+}
+
+::-moz-selection {
+  background-color: white;
+  color: black;
+}
 }
