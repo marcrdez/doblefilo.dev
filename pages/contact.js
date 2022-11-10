@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { NavBar } from "../components/NavBar";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Main.module.css";
 
 export default function Contact() {
   return (
