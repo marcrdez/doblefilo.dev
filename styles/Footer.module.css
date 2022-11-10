@@ -1,0 +1,44 @@
+.component{
+  height: 25vh;
+  width: 100vw;
+  flex: 1;
+  display: flex;
+  margin: auto;
+  position: relative;
+}
+
+.divSocialMedia {
+  max-width: 75vw;
+  gap: 1.5rem;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.socialMedia {
+    font-weight: 500;
+    font-size: 18px;
+    
+}
+
+.socialMedia:hover {
+  cursor: pointer;
+  border-bottom: 2px solid;
+  -webkit-text-decoration-skip: ink;
+  text-decoration-skip: ink;
+  transition: 0.2s;
+}
+
+.year {
+  height: 25vh;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  padding: 5.5rem;
+  right: 0;
+  font-size: 18px;
+  font-weight: 200;
+}

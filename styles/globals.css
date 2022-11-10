@@ -15,6 +15,10 @@ a {
   box-sizing: border-box;
 }
 
+*:hover {
+  border-bottom-color: black;
+}
+
 ::selection {
   background-color: black;
   color: white;
@@ -29,10 +33,15 @@ a {
   html {
     color-scheme: dark;
   }
+
   body {
     color: white;
-    background: black;
     background-color: black;
+    background-color: black;
+  }
+
+  *:hover {
+    border-bottom-color: white;
   }
 
   ::selection {
@@ -40,8 +49,8 @@ a {
   color: black;
 }
 
-::-moz-selection {
-  background-color: white;
-  color: black;
-}
+  ::-moz-selection {
+    background-color: white;
+    color: black;
+  }
 }
