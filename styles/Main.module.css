@@ -25,6 +25,7 @@
 }
 
 .job {
+  font-size: 1.5rem;
   font-weight: 500;
 }
 
@@ -32,10 +33,17 @@
   font-weight: 600;
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
+@media (max-width: 768px) {
+  .container {
+    padding: 0 0;
+  }
+
+  .title {
+    font-size: 3.25em;
+  }
+
+  .subtitle, .job {
+    font-size: 1.25rem;
   }
 }
 

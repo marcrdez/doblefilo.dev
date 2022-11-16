@@ -28,7 +28,7 @@
   cursor: pointer;
   border-bottom: 2px solid;
   -webkit-text-decoration-skip: ink;
-  text-decoration-skip: ink;
+  text-decoration-skip-ink: auto;
   transition: 0.2s;
 }
 
@@ -41,4 +41,10 @@
   right: 0;
   font-size: 18px;
   font-weight: 200;
+}
+
+@media (max-width: 768px) {
+  .year {
+    padding: 2.5rem;
+  }
 }
