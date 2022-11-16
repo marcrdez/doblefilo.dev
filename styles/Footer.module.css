@@ -44,6 +44,10 @@
 }
 
 @media (max-width: 768px) {
+  .divSocialMedia {
+    gap: 1rem;
+  }
+
   .year {
     padding: 2.5rem;
   }
