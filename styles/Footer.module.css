@@ -46,9 +46,11 @@
 @media (max-width: 768px) {
   .divSocialMedia {
     gap: 1rem;
+    justify-content: left;
   }
 
   .year {
-    padding: 2.5rem;
+    padding: 3rem;
+    font-weight: 300;
   }
 }
