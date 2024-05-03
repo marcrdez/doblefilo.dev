@@ -8,7 +8,12 @@ export const NavBar = () => {
         <Link href="/" className={styles.link}>
           Home
         </Link>
-        <Link href="/blog" className={styles.link}>
+        <Link
+          href="/blog"
+          className={styles.link}
+          rel="noopener noreferrer"
+          target="_blank"
+        >
           Blog
         </Link>
         <Link href="/contact">Contact</Link>

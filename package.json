@@ -10,11 +10,16 @@
   },
   "dependencies": {
     "next": "13.0.0",
+    "prettier": "^3.2.5",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "eslint": "8.26.0",
-    "eslint-config-next": "13.0.0"
+    "@types/node": "20.12.8",
+    "@types/react": "18.3.1",
+    "eslint": "^8.26.0",
+    "eslint-config-next": "13.0.0",
+    "prettier-plugin-organize-imports": "^3.2.4",
+    "typescript": "5.4.5"
   }
 }

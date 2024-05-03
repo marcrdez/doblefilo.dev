@@ -20,6 +20,14 @@ export const Footer = () => {
         >
           GitHub
         </a>
+        <a
+          className={styles.socialMedia}
+          href="https://www.linkedin.com/in/marc-rodriguez-moreno/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          LinkedIn
+        </a>
       </div>
       <span className={styles.year}>{new Date().getFullYear()}</span>
     </div>
