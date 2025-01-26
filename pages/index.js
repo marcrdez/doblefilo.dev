@@ -1,6 +1,7 @@
 import Head from "next/head";
 import React from "react";
 import { Footer } from "../components/Footer";
+import GitHubStars from "../components/GitHubStars";
 import { Main } from "../components/Main";
 import { NavBar } from "../components/NavBar";
 
@@ -16,6 +17,7 @@ export default function Home() {
       <main>
         <NavBar />
         <Main />
+        <GitHubStars />
         <Footer />
       </main>
     </div>

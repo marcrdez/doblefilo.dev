@@ -1,4 +1,4 @@
-.component{
+.component {
   height: 25vh;
   width: 100vw;
   flex: 1;
@@ -19,9 +19,8 @@
 }
 
 .socialMedia {
-    font-weight: 500;
-    font-size: 18px;
-    
+  font-weight: 500;
+  font-size: 18px;
 }
 
 .socialMedia:hover {

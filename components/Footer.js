@@ -6,7 +6,7 @@ export const Footer = () => {
       <div className={styles.divSocialMedia}>
         <a
           className={styles.socialMedia}
-          href="https://twitter.com/marc_doblefilo"
+          href="https://twitter.com/marcrdez"
           target="_blank"
           rel="noreferrer"
         >
@@ -14,7 +14,7 @@ export const Footer = () => {
         </a>
         <a
           className={styles.socialMedia}
-          href="https://github.com/marc-doblefilo"
+          href="https://github.com/marcrdez"
           target="_blank"
           rel="noreferrer"
         >
