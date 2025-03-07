@@ -9,16 +9,27 @@ export const Main = () => {
           Hi! I&apos;m <span className={styles.name}>Marc Rodríguez</span>
         </h1>
         <h3 className={styles.subtitle}>
-          Software Engineer at{" "}
+          Backend Engineer at{" "}
           <Link
             className={styles.job}
-            href="https://genially.com"
+            href="https://embat.io"
             rel="noopener noreferrer"
             target="_blank"
           >
-            Genially
+           Embat 
           </Link>
         </h3>
+        <p className={styles.previousJob}>
+          formerly at{" "}
+          <Link
+            href="https://genial.ly"
+            rel="noopener noreferrer"
+            target="_blank"
+            className={styles.previousJobLink}
+          >
+            Genially
+          </Link>
+        </p>
       </div>
     </div>
   );

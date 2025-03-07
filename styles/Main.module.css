@@ -22,6 +22,7 @@
 .subtitle {
   font-size: 1.5rem;
   font-weight: 100;
+  margin-bottom: 0.5rem;
 }
 
 .job {
@@ -34,6 +35,18 @@
   font-weight: 600;
 }
 
+.previousJob {
+  margin-top: 0;
+  font-size: 1.2rem;
+  font-weight: 100;
+  color: #999;
+}
+
+.previousJobLink {
+  font-weight: 400;
+  text-decoration: underline;
+}
+
 @media (max-width: 768px) {
   .container {
     padding: 0 0;
@@ -44,7 +57,8 @@
   }
 
   .subtitle,
-  .job {
+  .job,
+  .previousJob {
     font-size: 1.25rem;
   }
 }
