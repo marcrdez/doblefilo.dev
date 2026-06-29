@@ -1,18 +1,15 @@
-import Head from "next/head";
 import React from "react";
 import { Footer } from "../components/Footer";
 import GitHubStars from "../components/GitHubStars";
 import { Main } from "../components/Main";
 import { NavBar } from "../components/NavBar";
+import { SiteMeta } from "../components/SiteMeta";
+import { siteConfig } from "../lib/site";
 
 export default function Home() {
   return (
     <div>
-      <Head>
-        <title>Doblefilo</title>
-        <meta name="description" content="Marc Rodriguez personal website" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <SiteMeta title={siteConfig.name} description={siteConfig.description} />
 
       <main>
         <NavBar />

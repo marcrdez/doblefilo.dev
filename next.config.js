@@ -10,6 +10,13 @@ const nextConfig = {
         permanent: false,
         basePath: false,
       },
+      {
+        source: "/contact",
+        destination:
+          "https://www.linkedin.com/in/marc-rodriguez-moreno/?locale=es",
+        permanent: false,
+        basePath: false,
+      },
     ];
   },
 };
